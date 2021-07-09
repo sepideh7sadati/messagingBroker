@@ -1,0 +1,38 @@
+app:
+  message: Message has been sent Successfully..
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 15672
+    username: guest
+    exchange: user.exchange
+    queue: user.queue
+    routingkey: user.routingkey
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 696913
+    driverClassName: org.postgresql.Driver
+server:
+  port: 9091
+
+  server:
+    port: 8080
+  spring:
+    rabbitmq:
+      host: localhost
+      password: guest
+      port: 15672
+      username: guest
+      exchange: user.exchange
+      queue: user.queue
+      routingkey: user.routingkey
+
+
