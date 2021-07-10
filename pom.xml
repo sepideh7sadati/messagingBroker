@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.company.soha.tejarat</groupId>
-    <artifactId>rabbitmq</artifactId>
+    <artifactId>messaging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rabbitmq</name>
+    <name>messaging</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

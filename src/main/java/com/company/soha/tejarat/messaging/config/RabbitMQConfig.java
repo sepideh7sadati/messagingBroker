@@ -1,4 +1,4 @@
-package com.company.soha.tejarat.rabbitmq.config;
+package com.company.soha.tejarat.messaging.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;

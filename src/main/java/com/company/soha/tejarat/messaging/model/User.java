@@ -1,6 +1,5 @@
-package com.company.soha.tejarat.rabbitmq.model;
+package com.company.soha.tejarat.messaging.model;
 
-import com.company.soha.tejarat.rabbitmq.dto.UserDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

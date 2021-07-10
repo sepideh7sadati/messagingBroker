@@ -1,8 +1,8 @@
-package com.company.soha.tejarat.rabbitmq.controller;
+package com.company.soha.tejarat.messaging.controller;
 
 
-import com.company.soha.tejarat.rabbitmq.dto.UserDto;
-import com.company.soha.tejarat.rabbitmq.services.RabbitMQSender;
+import com.company.soha.tejarat.messaging.dto.UserDto;
+import com.company.soha.tejarat.messaging.services.RabbitMQSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/api/v1")
-public class ProducerController {
+@RequestMapping(value = "/api")
+public class MessagingController {
 
     private RabbitMQSender rabbitMqSender;
 
     @Autowired
-    public ProducerController(RabbitMQSender rabbitMqSender)
+    public MessagingController(RabbitMQSender rabbitMqSender)
     {
         this.rabbitMqSender = rabbitMqSender;
     }

@@ -1,6 +1,6 @@
-package com.company.soha.tejarat.rabbitmq.repo;
+package com.company.soha.tejarat.messaging.repo;
 
-import com.company.soha.tejarat.rabbitmq.model.User;
+import com.company.soha.tejarat.messaging.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

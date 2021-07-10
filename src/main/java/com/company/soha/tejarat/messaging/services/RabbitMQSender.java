@@ -1,6 +1,6 @@
-package com.company.soha.tejarat.rabbitmq.services;
+package com.company.soha.tejarat.messaging.services;
 
-import com.company.soha.tejarat.rabbitmq.dto.UserDto;
+import com.company.soha.tejarat.messaging.dto.UserDto;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

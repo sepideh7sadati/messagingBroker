@@ -1,6 +1,6 @@
-package com.company.soha.tejarat.rabbitmq.services;
+package com.company.soha.tejarat.messaging.services;
 
-import com.company.soha.tejarat.rabbitmq.model.User;
+import com.company.soha.tejarat.messaging.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
